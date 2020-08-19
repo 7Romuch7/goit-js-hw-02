@@ -1,20 +1,18 @@
-/*const orderPieces = prompt(`Введите количество товаров`);
-
-const credits = 23580;
-const pricePerDroid = 3000;
-const CANCELED_BY_USER = 'Отменено пользователем!';
-const ACCESS_DENIED = 'Недостаточно средств на счету!';
-
-let totalPrice = orderPieces * pricePerDroid;
-let balanceCredit = credits - totalPrice;
-let message;
-
-if (orderPieces === null) {
-  message = CANCELED_BY_USER;
-} else if (totalPrice > credits) {
-  message = ACCESS_DENIED;
-} else if (totalPrice <= credits && totalPrice >= 0) {
-  message = `Вы купили ${orderPieces} дроидов, на счету осталось ${balanceCredit} кредитов`;
+function formatString(string, maxLength = 40) {
+    // Write code under this line
+    if (string.length < maxLength) {
+        return string;
+    }
+    if (string.length > maxLength) {
+        return;
+    }
 }
 
-console.log(message);*/
+//console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
+// 'Curabitur ligula sapien, tincidunt non.'
+
+//console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
+// 'Vestibulum facilisis, purus nec pulvinar...'
+
+//console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.', 30));
+// 'Vestibulum facilisis, purus ne...'
