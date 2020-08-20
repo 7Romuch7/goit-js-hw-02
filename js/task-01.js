@@ -5,7 +5,7 @@
           result += `${i + 1} - ${array[i]}\n`;
       }
   
-      return result // Write code under this line
+      return result
       
   };
   

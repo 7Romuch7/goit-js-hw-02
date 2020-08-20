@@ -1,21 +1,21 @@
-/*function findLongestWord(string = "") {
-  // Write code under this line
-  const stringSplit = string.split(' ');
-  let longestWord = "";
+/*function findLongestWord(string = '') {
+    // Write code under this line
+    const stringSplit = string.split(' ');
+    let longestWord = '';
 
-  for (const word of stringSplit) {
-    if (word.length > longestWord.length) {
-      longestWord = word;
+    for (const word of stringSplit) {
+        if (word.length > longestWord.length) {
+            longestWord = word;
+        }
     }
-  }
-  return longestWord;
+    return longestWord;
 }
 
-//console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
+console.log(findLongestWord('The quick brown fox jumped over the lazy dog'));
 // 'jumped'
 
-//console.log(findLongestWord('Google do a roll'));
+console.log(findLongestWord('Google do a roll'));
 // 'Google'
 
-//console.log(findLongestWord('May the force be with you'));
+console.log(findLongestWord('May the force be with you'));
 // 'force'*/
