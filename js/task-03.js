@@ -1,5 +1,5 @@
 /*function findLongestWord(string = '') {
-    // Write code under this line
+    
     const stringSplit = string.split(' ');
     let longestWord = '';
 
