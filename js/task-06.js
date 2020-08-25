@@ -1,15 +1,24 @@
-/*function mapArray(array) {
-    'use strict';
-    const numbers = new Array(array.length);
-    for (let i = 0; i < array.length; i += 1) {
+/*let input;
+const numbers = [];
+let total = 0;
 
-        numbers[i] = array[i] * 10;
+while (true) {
+    input = prompt('Введите произвольное число');
+
+    if (input === null) break;
+
+    input = Number(input);
+
+    if (Number.isNaN(input)) {
+        alert('Было введено не число, попробуйте еще раз');
+    } else {
+        numbers.push(input);
     }
-    return numbers;
 }
 
-console.log(mapArray([-2, 0, 2]));
-// [-20, 0, 20]
-
-console.log(mapArray([-2.5, 0, 2.5]));
-// [-25, 0, 25]*/
+if (numbers.length > 0) {
+    for (const number of numbers) {
+        total += number;
+    }
+    alert(`Общая сумма чисел равна ${total}`);
+}*/

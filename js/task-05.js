@@ -1,11 +1,10 @@
-/*function checkForSpam(str) {
-    const normalizedTitle = str.toLowerCase;
-    return str.toLowerCase().includes('spam') ||
-        str.toLowerCase().includes('sale')
+/*const checkForSpam = function (message) {
+    const normalizedTitle = message.toLowerCase;
+    return message.toLowerCase().includes('spam') ||
+        message.toLowerCase().includes('sale')
         ? true
         : false;
-
-}
+};
 
 console.log(checkForSpam('Latest technology news')); // false
 

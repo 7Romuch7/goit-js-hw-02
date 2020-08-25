@@ -1,20 +1,25 @@
-/*function formatString(string, maxLength = 40) {
-    // Write code under this line
-    if (string.length < maxLength) {
+/*const formatString = function (string) {
+    const maxLeng = 40;
+    if (string.length < maxLeng) {
         return string;
     }
-    if (string.length > maxLength) {
-        return string.slice(0, -(string.length - maxLength)) + '...';
+    if (string.length > maxLeng) {
+        return string.slice(0, -(string.length - maxLeng)) + '...';
     }
-}
+};
 
 console.log(formatString('Curabitur ligula sapien, tincidunt non.'));
-// 'Curabitur ligula sapien, tincidunt non.'
+// вернется оригинальная строка
 
 console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
-// 'Vestibulum facilisis, purus nec pulvinar...'
+// вернется форматированная строка
+
+console.log(formatString('Curabitur ligula sapien.'));
+// вернется оригинальная строка
 
 console.log(
-    formatString('Vestibulum facilisis, purus nec pulvinar iaculis.', 30),
+    formatString(
+        'Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.',
+    ),
 );
-// 'Vestibulum facilisis, purus ne...'*/
+// вернется форматированная строка*/
